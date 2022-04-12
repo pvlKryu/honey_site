@@ -1,0 +1,565 @@
+.container {
+    position: absolute;
+    width: 100%;
+    height: 80%;
+    background: #FED100;
+    left: 0px;
+    top: 0px;
+}
+
+.bee_logo {
+    max-width: 5%;
+    margin-left: 4%;
+    margin-top: 1.5%;
+    position: fixed;
+}
+
+.up_footer {
+    justify-content: space-between;
+    display: flex;
+    margin-left: 18.5%;
+    position: absolute;
+    top: 9.5%;
+    width: 55%;
+}
+
+.buttons {
+    display: flex;
+    margin-right: auto;
+    margin-left: 83px;
+    outline: none;
+    /* Для синий ободки */
+    border: 0;
+    background: transparent;
+}
+
+button:hover {
+    transform: skew(-10deg);
+}
+
+
+.buttons-text {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    /* identical to box height */
+    color: #333333;
+}
+
+.phone_number {
+    margin-left: 18%;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 29px;
+    color: #333333;
+    white-space: nowrap;
+}
+
+.promo {
+    position: absolute;
+    width: 480px;
+    height: 198px;
+    left: 11%;
+    top: 12%;
+}
+
+.promo-title {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 70px;
+    line-height: 120%;
+    /* or 89px */
+    color: #333333;
+    white-space: nowrap;
+    margin-bottom: -10px;
+}
+
+.promo-text {
+
+    top: 20px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 30px;
+    color: #333333;
+}
+
+.button_border {
+    position: absolute;
+    width: 304px;
+    height: 60px;
+    left: 11.5%;
+    top: 56%;
+    border: 2px solid #F2F2F2;
+    box-sizing: border-box;
+}
+
+
+.button {
+    position: absolute;
+    width: 304px;
+    height: 60px;
+    left: 11%;
+    top: 55%;
+    background: #FF352B;
+    border: hidden;
+    outline: none;
+}
+
+
+
+
+.button-text {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 29px;
+    color: #F2F2F2;
+
+}
+
+.down_footer {
+    position: relative;
+    width: 466px;
+    height: 42px;
+    top: 515px;
+    justify-content: space-between;
+    display: flex;
+    margin-left: 11%;
+}
+
+.down_footer_text {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 21px;
+    color: #333333;
+    align-items: center;
+    vertical-align: middle;
+    display: inline-block;
+    top: -53%;
+    position: absolute;
+    margin-left: 2%;
+
+}
+
+.main_picture {
+    position: absolute;
+    left: 53%;
+    top: 10.5%;
+    image-rendering: optimizeSpeed;
+}
+
+.second_page {
+    position: absolute;
+    width: 100%;
+    top: 80%;
+    height: 120%;
+    background-color: #E1EBF4;
+    margin-left: -0.55%;
+}
+
+.second_page_text {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 37px;
+    color: #333333;
+    position: absolute;
+    margin-left: 33.5%;
+}
+
+.cards {
+    position: absolute;
+    margin-left: 21%;
+    width: 61%;
+    justify-content: space-between;
+    display: flex;
+    margin-top: 10%;
+    image-rendering: optimizeSpeed;
+
+}
+
+.card_title {
+    position: absolute;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 24px;
+    color: #333333;
+    margin-top: 30%;
+    margin-left: -28.5%;
+
+}
+
+
+.honeycomb_card {
+    margin-top: -0.4%;
+    align-items: center;
+    margin-left: 13%;
+
+}
+
+.honey_card {
+    align-items: center;
+
+}
+
+.card_text {
+    position: absolute;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    color: #333333;
+    margin-top: 35%;
+    margin-left: -45.5%;
+    width: 63%;
+    align-items: center;
+    vertical-align: middle;
+    display: inline-block;
+    text-align: center;
+    justify-content: space-between;
+}
+
+.price {
+    position: absolute;
+    width: 100.5%;
+    height: 100%;
+    top: 100%;
+    position: absolute;
+    background-color: #E1EBF4;
+    margin-left: -0.55%;
+}
+
+.title_price {
+    position: absolute;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 60px;
+    line-height: 126.9%;
+    color: black;
+    position: absolute;
+    padding-left: 44.5%;
+    padding-top: 52%;
+}
+
+.honey_down_picter {
+    position: absolute;
+    max-width: 100%;
+    height: 100%;
+    opacity: 80%;
+
+}
+
+.price_cards {
+    position: relative;
+    margin-left: 14%;
+    width: 70%;
+    justify-content: space-between;
+    display: flex;
+    margin-top: 1%;
+
+
+}
+
+.price_title {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 550;
+    font-size: 20px;
+    line-height: 40px;
+    text-align: center;
+    color: #333333;
+}
+
+.price_text {
+    position: absolute;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 20px;
+    text-align: center;
+    color: #333333;
+    padding-left: 2%;
+    padding-top: 2%;
+
+}
+
+.price_card1 {
+    border: 0.5px solid white;
+    box-sizing: border-box;
+    padding: 30px 30px 120px 30px;
+    border-radius: 5px;
+}
+
+.price_card2 {
+    margin-top: 5%;
+    border: 0.5px solid white;
+    box-sizing: border-box;
+    padding: 30px 30px 150px 30px;
+    border-radius: 5px;
+}
+
+.button2 {
+    position: absolute;
+    background: #FED103;
+    border: hidden;
+    outline: none;
+    margin-top: 10%;
+    max-width: 140%;
+    padding-left: 7%;
+    padding-right: 8%;
+}
+
+.button3 {
+    position: absolute;
+    background: #FED110;
+    border: hidden;
+    outline: none;
+    margin-top: 10%;
+    max-width: 140%;
+    padding-left: 8%;
+    padding-right: 8.5%;
+}
+
+.button4 {
+    position: absolute;
+    background: #FED100;
+    border: hidden;
+    outline: none;
+    margin-top: 10%;
+    max-width: 140%;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.button-text2 {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 550;
+    font-size: 20px;
+    line-height: 24px;
+    color: #333333;
+    text-align: center;
+}
+
+.photos_title {
+    position: absolute;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 37px;
+    color: #333333;
+    margin-left: 43%;
+    margin-top: -5%;
+
+}
+
+
+
+.grid {
+    position: absolute;
+    background: #FED100;
+    margin-top: 152%;
+    width: 100.1%;
+    margin-left: -0.7%;
+    padding-top: 10%;
+    height: 83%;
+
+}
+
+.grid:after {
+    content: '';
+    display: block;
+    clear: both;
+}
+
+.grid-item {
+    overflow: hidden;
+    float: left;
+}
+
+.grid-item img {
+    height: 90%;
+    width: 90%;
+    border-radius: 5px;
+    margin-left: 7%;
+}
+
+.grid-item--width2 {
+    width: 300px;
+}
+
+.first_column {
+    position: relative;
+    width: 8%;
+    margin-left: 5.5%;
+    margin-top: 4.5%;
+
+    align-items: center;
+    vertical-align: middle;
+
+    text-align: center;
+    line-height: 30px;
+
+}
+
+
+
+.button_footer {
+    border: hidden;
+    outline: none;
+    background: #E1EBF4;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    color: #333333;
+}
+
+.down_footer2_title {
+    position: absolute;
+    width: 200%;
+    margin-left: -60%;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 28px;
+    color: #333333;
+    margin-top: -38%;
+}
+
+.down_footer2 {
+
+    position: absolute;
+    background: #E1EBF4;
+    margin-top: 200%;
+    width: 100%;
+    height: 40%;
+    margin-left: -0.55%;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.second_column {
+    position: absolute;
+    width: 20%;
+    height: 30%;
+    margin-top: 5.2%;
+    margin-left: 25%;
+    align-items: center;
+    vertical-align: middle;
+
+    text-align: center;
+
+}
+
+.second_column_text {
+    position: absolute;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    color: #0E0F12;
+    width: 110%;
+}
+
+.second_column_text_title {
+    position: absolute;
+    width: 150%;
+    margin-left: -24%;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 28px;
+    color: #333333;
+    margin-top: -18%;
+}
+
+.third_column {
+    position: absolute;
+    width: 20%;
+
+    margin-top: 5.2%;
+    margin-left: 55%;
+    align-items: center;
+    vertical-align: middle;
+
+    text-align: center;
+
+}
+
+.third_column_text_title {
+    position: absolute;
+    width: 150%;
+    margin-left: 18%;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 28px;
+    color: #333333;
+    margin-top: -18%;
+}
+
+.third_column_text {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    color: #0E0F12;
+    margin-left: 37%;
+    position: absolute;
+    width: 110%;
+}
+
+.info {
+    margin-top: 50%;
+}
+
+.info_column_text_title {
+    position: absolute;
+    width: 150%;
+    margin-left: 18%;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 1px;
+    color: #333333;
+    margin-top: -18%;
+    margin-bottom: -5%;
+}
+
+.info_column_text {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    color: #0E0F12;
+    margin-left: 43%;
+    position: absolute;
+    width: 100%;
+
+}
